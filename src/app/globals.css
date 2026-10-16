@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply bg-amber-50/20 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 antialiased selection:bg-amber-400 selection:text-zinc-950;
+  }
+}
+
+@keyframes cellFlipIn {
+  0% {
+    opacity: 0;
+    transform: perspective(600px) rotateX(-75deg) scale(0.92);
+  }
+  65% {
+    opacity: 1;
+    transform: perspective(600px) rotateX(8deg) scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg) scale(1);
+  }
+}
+
+@keyframes dropdownSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes victoryPopIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.94);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-2px) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-cell-flip {
+  opacity: 0;
+  animation: cellFlipIn 0.48s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-dropdown-in {
+  animation: dropdownSlideIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-victory-pop {
+  animation: victoryPopIn 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}

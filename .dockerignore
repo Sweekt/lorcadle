@@ -1,0 +1,9 @@
+node_modules
+.next
+.git
+.idea
+.superpowers
+allCards_*.json
+docs
+npm-debug.log*
+*.tsbuildinfo

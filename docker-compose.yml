@@ -1,0 +1,28 @@
+services:
+  lorcadle:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lorcadle
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - TZ=Europe/Paris
+    labels:
+      - "traefik.enable=true"
+      # Routeur HTTPS principal (lorcadle.com + www.lorcadle.com)
+      - "traefik.http.routers.lorcadle.rule=Host(`lorcadle.com`) || Host(`www.lorcadle.com`)"
+      - "traefik.http.routers.lorcadle.entrypoints=websecure"
+      - "traefik.http.routers.lorcadle.tls.certresolver=myresolver"
+      - "traefik.http.services.lorcadle.loadbalancer.server.port=3000"
+      # Redirection automatique www.lorcadle.com -> lorcadle.com
+      - "traefik.http.middlewares.lorcadle-www-redirect.redirectregex.regex=^https://www\\.lorcadle\\.com/(.*)"
+      - "traefik.http.middlewares.lorcadle-www-redirect.redirectregex.replacement=https://lorcadle.com/$${1}"
+      - "traefik.http.middlewares.lorcadle-www-redirect.redirectregex.permanent=true"
+      - "traefik.http.routers.lorcadle.middlewares=lorcadle-www-redirect"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true

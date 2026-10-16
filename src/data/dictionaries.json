@@ -1,0 +1,848 @@
+{
+  "stories": {
+    "The Little Mermaid": {
+      "en": "The Little Mermaid",
+      "fr": "La Petite Sirène",
+      "de": "Arielle, die Meerjungfrau",
+      "it": "La sirenetta"
+    },
+    "Cinderella": {
+      "en": "Cinderella",
+      "fr": "Cendrillon",
+      "de": "Cinderella",
+      "it": "Cenerentola"
+    },
+    "The Three Musketeers": {
+      "en": "The Three Musketeers",
+      "fr": "Les Trois Mousquetaires",
+      "de": "Die drei Musketiere",
+      "it": "I tre moschettieri"
+    },
+    "Hercules": {
+      "en": "Hercules",
+      "fr": "Hercule",
+      "de": "Hercules",
+      "it": "Hercules"
+    },
+    "Moana": {
+      "en": "Moana",
+      "fr": "Vaiana",
+      "de": "Vaiana",
+      "it": "Oceania"
+    },
+    "Beauty and the Beast": {
+      "en": "Beauty and the Beast",
+      "fr": "La Belle et la Bête",
+      "de": "Die Schöne und das Biest",
+      "it": "La bella e la bestia"
+    },
+    "Lilo & Stitch": {
+      "en": "Lilo & Stitch",
+      "fr": "Lilo et Stitch",
+      "de": "Lilo & Stitch",
+      "it": "Lilo & Stitch"
+    },
+    "Tangled": {
+      "en": "Tangled",
+      "fr": "Raiponce",
+      "de": "Rapunzel – Neu verföhnt",
+      "it": "Rapunzel - L'intreccio della torre"
+    },
+    "Mickey Mouse & Friends": {
+      "en": "Mickey Mouse & Friends",
+      "fr": "Mickey Mouse et ses amis",
+      "de": "Mickey Maus und Freunde",
+      "it": "Topolino e i suoi amici"
+    },
+    "Peter Pan": {
+      "en": "Peter Pan",
+      "fr": "Peter Pan",
+      "de": "Peter Pan",
+      "it": "Le avventure di Peter Pan"
+    },
+    "Sleeping Beauty": {
+      "en": "Sleeping Beauty",
+      "fr": "La Belle au bois dormant",
+      "de": "Dornröschen",
+      "it": "La bella addormentata nel bosco"
+    },
+    "The Lion King": {
+      "en": "The Lion King",
+      "fr": "Le Roi lion",
+      "de": "Der König der Löwen",
+      "it": "Il re lione"
+    },
+    "Frozen": {
+      "en": "Frozen",
+      "fr": "La Reine des neiges",
+      "de": "Die Eiskönigin",
+      "it": "Frozen"
+    },
+    "The Sword in the Stone": {
+      "en": "The Sword in the Stone",
+      "fr": "Merlin l'Enchanteur",
+      "de": "Die Hexe und der Zauberer",
+      "it": "La spada nella roccia"
+    },
+    "The Princess And The Frog": {
+      "en": "The Princess And The Frog",
+      "fr": "La Princesse et la Grenouille",
+      "de": "Küss den Frosch",
+      "it": "La principessa e il ranocchio"
+    },
+    "Aladdin": {
+      "en": "Aladdin",
+      "fr": "Aladdin",
+      "de": "Aladdin",
+      "it": "Aladdin"
+    },
+    "The Sorcerer's Apprentice": {
+      "en": "The Sorcerer's Apprentice",
+      "fr": "L'Apprenti sorcier",
+      "de": "Der Zauberlehrling",
+      "it": "L'apprendista stregone"
+    },
+    "Snow White and the Seven Dwarfs": {
+      "en": "Snow White and the Seven Dwarfs",
+      "fr": "Blanche-Neige et les Sept Nains",
+      "de": "Schneewittchen und die sieben Zwerge",
+      "it": "Biancaneve e i sette nani"
+    },
+    "The Emperor's New Groove": {
+      "en": "The Emperor's New Groove",
+      "fr": "Kuzco, l'empereur mégalo",
+      "de": "Ein Königreich für ein Lama",
+      "it": "Le follie dell'imperatore"
+    },
+    "Mulan": {
+      "en": "Mulan",
+      "fr": "Mulan",
+      "de": "Mulan",
+      "it": "Mulan"
+    },
+    "Alice In Wonderland": {
+      "en": "Alice In Wonderland",
+      "fr": "Alice au pays des merveilles",
+      "de": "Alice im Wunderland",
+      "it": "Alice nel Paese delle Meraviglie"
+    },
+    "101 Dalmatians": {
+      "en": "101 Dalmatians",
+      "fr": "Les 101 Dalmatiens",
+      "de": "101 Dalmatiner",
+      "it": "La carica dei 101"
+    },
+    "Treasure Planet": {
+      "en": "Treasure Planet",
+      "fr": "La Planète au Trésor",
+      "de": "Der Schatzplanet",
+      "it": "Il pianeta del tesoro"
+    },
+    "Robin Hood": {
+      "en": "Robin Hood",
+      "fr": "Robin des Bois",
+      "de": "Robin Hood",
+      "it": "Robin Hood"
+    },
+    "Brave Little Tailor": {
+      "en": "Brave Little Tailor",
+      "fr": "Le Brave Petit Tailleur",
+      "de": "Tapferes kleines Schneiderlein",
+      "it": "L'eroico ammazzasette"
+    },
+    "Winnie the Pooh": {
+      "en": "Winnie the Pooh",
+      "fr": "Winnie l'Ourson",
+      "de": "Winnie Puuh",
+      "it": "Winnie the Pooh"
+    },
+    "The Jungle Book": {
+      "en": "The Jungle Book",
+      "fr": "Le Livre de la jungle",
+      "de": "Das Dschungelbuch",
+      "it": "Il libro della giungla"
+    },
+    "Raya and the Last Dragon": {
+      "en": "Raya and the Last Dragon",
+      "fr": "Raya et le Dernier Dragon",
+      "de": "Raya und der letzte Drache",
+      "it": "Raya e l'ultimo drago"
+    },
+    "The Great Mouse Detective": {
+      "en": "The Great Mouse Detective",
+      "fr": "Basil, détective privé",
+      "de": "Basil, der große Mäusedetektiv",
+      "it": "Basil l'investigatopo"
+    },
+    "Pinocchio": {
+      "en": "Pinocchio",
+      "fr": "Pinocchio",
+      "de": "Pinocchio",
+      "it": "Pinocchio"
+    },
+    "Zootopia": {
+      "en": "Zootopia",
+      "fr": "Zootopie",
+      "de": "Zoomania",
+      "it": "Zootropolis"
+    },
+    "Lorcana": {
+      "en": "Lorcana",
+      "fr": "Lorcana",
+      "de": "Lorcana",
+      "it": "Lorcana"
+    },
+    "The Rescuers": {
+      "en": "The Rescuers",
+      "fr": "Les Aventures de Bernard et Bianca",
+      "de": "Bernard und Bianca – Die Mäusepolizei",
+      "it": "Le avventure di Bianca e Bernie"
+    },
+    "Wreck-It Ralph": {
+      "en": "Wreck-It Ralph",
+      "fr": "Les Mondes de Ralph",
+      "de": "Ralph reichts",
+      "it": "Ralph Spaccatutto"
+    },
+    "TaleSpin": {
+      "en": "TaleSpin",
+      "fr": "Super Baloo",
+      "de": "Käpt’n Balu und seine tollkühne Crew",
+      "it": "TaleSpin"
+    },
+    "Fantasia": {
+      "en": "Fantasia",
+      "fr": "Fantasia",
+      "de": "Fantasia",
+      "it": "Fantasia"
+    },
+    "Atlantis: The Lost Empire": {
+      "en": "Atlantis: The Lost Empire",
+      "fr": "Atlantide, l'empire perdu",
+      "de": "Atlantis – Das Geheimnis der verlorenen Stadt",
+      "it": "Atlantis - L'impero perduto"
+    },
+    "DuckTales": {
+      "en": "DuckTales",
+      "fr": "La Bande à Picsou",
+      "de": "DuckTales",
+      "it": "DuckTales"
+    },
+    "Encanto": {
+      "en": "Encanto",
+      "fr": "Encanto",
+      "de": "Encanto",
+      "it": "Encanto"
+    },
+    "Mickey and the Beanstalk": {
+      "en": "Mickey and the Beanstalk",
+      "fr": "Mickey et le Haricot magique",
+      "de": "Micky und die Kletterbohne",
+      "it": "Topolino e il fagiolo magico"
+    },
+    "Brother Bear": {
+      "en": "Brother Bear",
+      "fr": "Frère des ours",
+      "de": "Bärenbrüder",
+      "it": "Koda, fratello orso"
+    },
+    "Chip 'n Dale: Rescue Rangers": {
+      "en": "Chip 'n Dale: Rescue Rangers",
+      "fr": "Tic et Tac, les rangers du risque",
+      "de": "Chip und Chap – Die Ritter des Rechts",
+      "it": "Cip & Ciop agenti speciali"
+    },
+    "Big Hero 6": {
+      "en": "Big Hero 6",
+      "fr": "Les Nouveaux Héros",
+      "de": "Baymax – Riesiges Robowabohu",
+      "it": "Big Hero 6"
+    },
+    "Oswald the Lucky Rabbit": {
+      "en": "Oswald the Lucky Rabbit",
+      "fr": "Oswald le lapin chanceux",
+      "de": "Oswald der lustige Hase",
+      "it": "Oswald il coniglio fortunato"
+    },
+    "Bolt": {
+      "en": "Bolt",
+      "fr": "Volt, star malgré lui",
+      "de": "Bolt – Ein Hund für alle Fälle",
+      "it": "Bolt - Un eroe a quattro zampe"
+    },
+    "Lady and the Tramp": {
+      "en": "Lady and the Tramp",
+      "fr": "La Belle et le Clochard",
+      "de": "Susi und Strolch",
+      "it": "Lilli e il vagabondo"
+    },
+    "The Aristocats": {
+      "en": "The Aristocats",
+      "fr": "Les Aristochats",
+      "de": "Aristocats",
+      "it": "Gli Aristogatti"
+    },
+    "Bambi": {
+      "en": "Bambi",
+      "fr": "Bambi",
+      "de": "Bambi",
+      "it": "Bambi"
+    },
+    "Dumbo": {
+      "en": "Dumbo",
+      "fr": "Dumbo, l'éléphant volant",
+      "de": "Dumbo, der fliegende Elefant",
+      "it": "Dumbo - L'elefante volante"
+    },
+    "A Goofy Movie": {
+      "en": "A Goofy Movie",
+      "fr": "Dingo et Max",
+      "de": "Der Goofy Film",
+      "it": "In viaggio con Pippo"
+    },
+    "The Black Cauldron": {
+      "en": "The Black Cauldron",
+      "fr": "Taram et le Chaudron magique",
+      "de": "Taran und der Zauberkessel",
+      "it": "Taron e la pentola magica"
+    },
+    "The Legend of Sleepy Hollow": {
+      "en": "The Legend of Sleepy Hollow",
+      "fr": "La Légende de Sleepy Hollow",
+      "de": "Die Legende von Sleepy Hollow",
+      "it": "La leggenda della valle addormentata"
+    },
+    "Gargoyles": {
+      "en": "Gargoyles",
+      "fr": "Gargoyles",
+      "de": "Gargoyles",
+      "it": "Gargoyles"
+    },
+    "Pocahontas": {
+      "en": "Pocahontas",
+      "fr": "Pocahontas",
+      "de": "Pocahontas",
+      "it": "Pocahontas"
+    },
+    "The Fox and the Hound": {
+      "en": "The Fox and the Hound",
+      "fr": "Rox et Rouky",
+      "de": "Cap und Capper",
+      "it": "Red e Toby nemiciamici"
+    },
+    "Darkwing Duck": {
+      "en": "Darkwing Duck",
+      "fr": "Myster Mask",
+      "de": "Darkwing Duck",
+      "it": "Darkwing Duck"
+    },
+    "Mickey's Christmas Carol": {
+      "en": "Mickey's Christmas Carol",
+      "fr": "Le Noël de Mickey",
+      "de": "Mickys Weihnachtserzählung",
+      "it": "Canto di Natale di Topolino"
+    },
+    "Toy Story": {
+      "en": "Toy Story",
+      "fr": "Toy Story",
+      "de": "Toy Story",
+      "it": "Toy Story"
+    },
+    "Brave": {
+      "en": "Brave",
+      "fr": "Rebelle",
+      "de": "Merida – Legende der Highlands",
+      "it": "Ribelle - The Brave"
+    },
+    "The Incredibles": {
+      "en": "The Incredibles",
+      "fr": "Les Indestructibles",
+      "de": "Die Unglaublichen",
+      "it": "Gli Incredibili"
+    },
+    "Turning Red": {
+      "en": "Turning Red",
+      "fr": "Alerte rouge",
+      "de": "Rot",
+      "it": "Red"
+    },
+    "Monsters, Inc.": {
+      "en": "Monsters, Inc.",
+      "fr": "Monstres & Cie",
+      "de": "Die Monster AG",
+      "it": "Monsters & Co."
+    },
+    "Up": {
+      "en": "Up",
+      "fr": "Là-haut",
+      "de": "Oben",
+      "it": "Up"
+    },
+    "Coco": {
+      "en": "Coco",
+      "fr": "Coco",
+      "de": "Coco",
+      "it": "Coco"
+    }
+  },
+  "subtypes": {
+    "Storyborn": {
+      "en": "Storyborn",
+      "fr": "Storyborn",
+      "de": "Sagengestalt",
+      "it": "Classico"
+    },
+    "Hero": {
+      "en": "Hero",
+      "fr": "Héros",
+      "de": "Heldin",
+      "it": "Eroe"
+    },
+    "Princess": {
+      "en": "Princess",
+      "fr": "Princesse",
+      "de": "Prinzessin",
+      "it": "Principessa"
+    },
+    "Dreamborn": {
+      "en": "Dreamborn",
+      "fr": "Dreamborn",
+      "de": "Traumgestalt",
+      "it": "Immaginato"
+    },
+    "Musketeer": {
+      "en": "Musketeer",
+      "fr": "Mousquetaire",
+      "de": "Musketier",
+      "it": "Moschettiere"
+    },
+    "Floodborn": {
+      "en": "Floodborn",
+      "fr": "Floodborn",
+      "de": "Flutgestalt",
+      "it": "Imbevuto"
+    },
+    "Villain": {
+      "en": "Villain",
+      "fr": "Méchant",
+      "de": "Schurke",
+      "it": "Cattivo"
+    },
+    "King": {
+      "en": "King",
+      "fr": "Roi",
+      "de": "König",
+      "it": "Re"
+    },
+    "Deity": {
+      "en": "Deity",
+      "fr": "Dieu",
+      "de": "Gottheit",
+      "it": "Divinità"
+    },
+    "Ally": {
+      "en": "Ally",
+      "fr": "Allié",
+      "de": "Verbündeter",
+      "it": "Alleato"
+    },
+    "Pirate": {
+      "en": "Pirate",
+      "fr": "Pirate",
+      "de": "Pirat",
+      "it": "Pirata"
+    },
+    "Prince": {
+      "en": "Prince",
+      "fr": "Prince",
+      "de": "Prinz",
+      "it": "Principe"
+    },
+    "Alien": {
+      "en": "Alien",
+      "fr": "Alien",
+      "de": "Alien",
+      "it": "Alieno"
+    },
+    "Song": {
+      "en": "Song",
+      "fr": "Chanson",
+      "de": "Lied",
+      "it": "Canzone"
+    },
+    "Queen": {
+      "en": "Queen",
+      "fr": "Reine",
+      "de": "Königin",
+      "it": "Regina"
+    },
+    "Sorcerer": {
+      "en": "Sorcerer",
+      "fr": "Mage",
+      "de": "Magier",
+      "it": "Incantatore"
+    },
+    "Broom": {
+      "en": "Broom",
+      "fr": "Balai",
+      "de": "Besen",
+      "it": "Scopa"
+    },
+    "Mentor": {
+      "en": "Mentor",
+      "fr": "Mentor",
+      "de": "Mentorin",
+      "it": "Mentore"
+    },
+    "Fairy": {
+      "en": "Fairy",
+      "fr": "Fée",
+      "de": "Fee",
+      "it": "Fata"
+    },
+    "Captain": {
+      "en": "Captain",
+      "fr": "Capitaine",
+      "de": "Kapitän",
+      "it": "Capitano"
+    },
+    "Inventor": {
+      "en": "Inventor",
+      "fr": "Inventeur",
+      "de": "Erfinder",
+      "it": "Inventore"
+    },
+    "Dragon": {
+      "en": "Dragon",
+      "fr": "Dragon",
+      "de": "Drache",
+      "it": "Drago"
+    },
+    "Tigger": {
+      "en": "Tigger",
+      "fr": "Tigrou",
+      "de": "Tigger",
+      "it": "Tigro"
+    },
+    "Detective": {
+      "en": "Detective",
+      "fr": "Détective",
+      "de": "Detektiv",
+      "it": "Detective"
+    },
+    "Seven Dwarfs": {
+      "en": "Seven Dwarfs",
+      "fr": "Sept Nains",
+      "de": "Sieben Zwerge",
+      "it": "Sette Nani"
+    },
+    "Knight": {
+      "en": "Knight",
+      "fr": "Chevalier",
+      "de": "Ritterin",
+      "it": "Cavaliere"
+    },
+    "Puppy": {
+      "en": "Puppy",
+      "fr": "Chiot",
+      "de": "Welpe",
+      "it": "Cucciolo"
+    },
+    "Titan": {
+      "en": "Titan",
+      "fr": "Titan",
+      "de": "Titan",
+      "it": "Titano"
+    },
+    "Hyena": {
+      "en": "Hyena",
+      "fr": "Hyène",
+      "de": "Hyäne",
+      "it": "Iena"
+    },
+    "Madrigal": {
+      "en": "Madrigal",
+      "fr": "Madrigal",
+      "de": "Madrigal",
+      "it": "Madrigal"
+    },
+    "Racer": {
+      "en": "Racer",
+      "fr": "Pilote",
+      "de": "Rennfahrer",
+      "it": "Pilota"
+    },
+    "Robot": {
+      "en": "Robot",
+      "fr": "Robot",
+      "de": "Roboter",
+      "it": "Robot"
+    },
+    "Illusion": {
+      "en": "Illusion",
+      "fr": "Illusion",
+      "de": "Illusion",
+      "it": "Illusione"
+    },
+    "Whisper": {
+      "en": "Whisper",
+      "fr": "Lueur",
+      "de": "Geflüster",
+      "it": "Sussurro"
+    },
+    "Gargoyle": {
+      "en": "Gargoyle",
+      "fr": "Gargouille",
+      "de": "Gargoyle",
+      "it": "Gargoyle"
+    },
+    "Ghost": {
+      "en": "Ghost",
+      "fr": "Fantôme",
+      "de": "Geist",
+      "it": "Fantasma"
+    },
+    "Super": {
+      "en": "Super",
+      "fr": "Super",
+      "de": "Super",
+      "it": "Super"
+    },
+    "Dinosaur": {
+      "en": "Dinosaur",
+      "fr": "Dinosaure",
+      "de": "Dinosaurier",
+      "it": "Dinosauro"
+    },
+    "Giant": {
+      "en": "Giant",
+      "fr": "Géant",
+      "de": "Riese",
+      "it": "Gigante"
+    },
+    "Toy": {
+      "en": "Toy",
+      "fr": "Jouet",
+      "de": "Spielzeug",
+      "it": "Giocattolo"
+    },
+    "Monster": {
+      "en": "Monster",
+      "fr": "Monstre",
+      "de": "Monster",
+      "it": "Mostro"
+    },
+    "Red Panda": {
+      "en": "Red Panda",
+      "fr": "Panda roux",
+      "de": "Roter Panda",
+      "it": "Panda Rosso"
+    },
+    "Hunny": {
+      "en": "Hunny",
+      "fr": "Miel",
+      "de": "Honig",
+      "it": "Miele"
+    },
+    "Vineling": {
+      "en": "Vineling",
+      "fr": "Pousse",
+      "de": "Rankenbrut",
+      "it": "Virgulto"
+    },
+    "Team": {
+      "en": "Team",
+      "fr": "Équipe",
+      "de": "Team",
+      "it": "Squadra"
+    },
+    "Hyperia City": {
+      "en": "Hyperia City",
+      "fr": "Hyperia City",
+      "de": "Hyperia",
+      "it": "Città di Hyperia"
+    }
+  },
+  "sets": {
+    "1": {
+      "en": "The First Chapter",
+      "fr": "Premier Chapitre",
+      "de": "Das Erste Kapitel",
+      "it": "Capitolo Primo"
+    },
+    "2": {
+      "en": "Rise of the Floodborn",
+      "fr": "L'Ascension des Floodborn",
+      "de": "Aufstieg der Flutgestalten",
+      "it": "L'Ascesa degli Imbevuti"
+    },
+    "3": {
+      "en": "Into the Inklands",
+      "fr": "Les Terres d'Encres",
+      "de": "Die Tintenlande",
+      "it": "Nelle Terre d'Inchiostro"
+    },
+    "4": {
+      "en": "Ursula's Return",
+      "fr": "Le Retour d'Ursula",
+      "de": "Ursulas Rückkehr",
+      "it": "Il Ritorno di Ursula"
+    },
+    "5": {
+      "en": "Shimmering Skies",
+      "fr": "Ciel Scintillant",
+      "de": "Himmelsleuchten",
+      "it": "Cieli Scintillanti"
+    },
+    "6": {
+      "en": "Azurite Sea",
+      "fr": "La Mer Azurite",
+      "de": "Azurblaues Meer",
+      "it": "Mare di Azzurrite"
+    },
+    "7": {
+      "en": "Archazia's Island",
+      "fr": "L'île d'Archazia",
+      "de": "Archazias Insel",
+      "it": "L'Isola di Archazia"
+    },
+    "8": {
+      "en": "The Reign of Jafar",
+      "fr": "Le Règne de Jafar",
+      "de": "Domäne von Dschafar",
+      "it": "Il Regno di Jafar"
+    },
+    "9": {
+      "en": "Fabled",
+      "fr": "Fabuleux",
+      "de": "Mythen",
+      "it": "Leggende"
+    },
+    "10": {
+      "en": "Whispers in the Well",
+      "fr": "Lueurs dans les Profondeurs",
+      "de": "Geflüster aus der Tiefe",
+      "it": "Sussurri nel Pozzo"
+    },
+    "11": {
+      "en": "Winterspell",
+      "fr": "Givresort",
+      "de": "Winterzauber",
+      "it": "Incanto d'Inverno"
+    },
+    "12": {
+      "en": "Wilds Unknown",
+      "fr": "Contrées Inconnues",
+      "de": "Unbekannte Wildnis",
+      "it": "Lande Sconosciute"
+    },
+    "13": {
+      "en": "Attack of the Vine!",
+      "fr": "Invasion Epineuse!",
+      "de": "Angriff der Ranke!",
+      "it": "Viticcio All'Attacco!"
+    },
+    "14": {
+      "en": "Hyperia City",
+      "fr": "Hyperia City",
+      "de": "Die Stadt Hyperia",
+      "it": "Città di Hyperia"
+    }
+  },
+  "rarities": {
+    "Common": {
+      "en": "Common",
+      "fr": "Commune",
+      "de": "Gewöhnlich",
+      "it": "Comune"
+    },
+    "Uncommon": {
+      "en": "Uncommon",
+      "fr": "Inhabituelle",
+      "de": "Ungewöhnlich",
+      "it": "Non comune"
+    },
+    "Rare": {
+      "en": "Rare",
+      "fr": "Rare",
+      "de": "Selten",
+      "it": "Rara"
+    },
+    "Super Rare": {
+      "en": "Super Rare",
+      "fr": "Très Rare",
+      "de": "Episch",
+      "it": "Super Rara"
+    },
+    "Legendary": {
+      "en": "Legendary",
+      "fr": "Légendaire",
+      "de": "Legendär",
+      "it": "Leggendaria"
+    }
+  },
+  "types": {
+    "Character": {
+      "en": "Character",
+      "fr": "Personnage",
+      "de": "Charakter",
+      "it": "Personaggio"
+    },
+    "Action": {
+      "en": "Action",
+      "fr": "Action",
+      "de": "Aktion",
+      "it": "Azione"
+    },
+    "Item": {
+      "en": "Item",
+      "fr": "Objet",
+      "de": "Gegenstand",
+      "it": "Oggetto"
+    },
+    "Location": {
+      "en": "Location",
+      "fr": "Lieu",
+      "de": "Ort",
+      "it": "Luogo"
+    }
+  },
+  "colors": {
+    "Amber": {
+      "en": "Amber",
+      "fr": "Ambre",
+      "de": "Bernstein",
+      "it": "Ambra"
+    },
+    "Amethyst": {
+      "en": "Amethyst",
+      "fr": "Améthyste",
+      "de": "Amethyst",
+      "it": "Ametista"
+    },
+    "Emerald": {
+      "en": "Emerald",
+      "fr": "Émeraude",
+      "de": "Smaragd",
+      "it": "Smeraldo"
+    },
+    "Ruby": {
+      "en": "Ruby",
+      "fr": "Rubis",
+      "de": "Rubin",
+      "it": "Rubino"
+    },
+    "Sapphire": {
+      "en": "Sapphire",
+      "fr": "Saphir",
+      "de": "Saphir",
+      "it": "Zaffiro"
+    },
+    "Steel": {
+      "en": "Steel",
+      "fr": "Acier",
+      "de": "Stahl",
+      "it": "Acciaio"
+    }
+  }
+}
