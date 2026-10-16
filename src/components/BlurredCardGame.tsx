@@ -29,27 +29,29 @@ export default function BlurredCardGame({
 
   return (
     <div className="flex flex-col items-center gap-5 w-full max-w-lg mx-auto animate-fade-in">
-      {/* Blurred Card Showcase */}
-      <div className="flex flex-col items-center gap-2">
-        <div className="relative w-52 sm:w-60 aspect-[2.5/3.5] rounded-2xl overflow-hidden border-4 border-amber-500/50 shadow-2xl shadow-amber-500/15 bg-zinc-900 select-none transition-transform duration-300 hover:scale-[1.02]">
-          <img
-            src={targetInfo.image}
-            alt="Carte mystère Lorcadle"
-            draggable={false}
-            style={{
-              filter: `blur(${blurPx}px)`,
-              transform: blurPx > 0 ? 'scale(1.08)' : 'scale(1)',
-            }}
-            className="w-full h-full object-cover transition-all duration-700 pointer-events-none"
-          />
+      {/* Blurred Card Showcase (hidden once won since VictoryModal displays the card) */}
+      {!won && (
+        <div className="flex flex-col items-center gap-2">
+          <div className="relative w-52 sm:w-60 aspect-[2.5/3.5] rounded-2xl overflow-hidden border-4 border-amber-500/50 shadow-2xl shadow-amber-500/15 bg-zinc-900 select-none transition-transform duration-300 hover:scale-[1.02]">
+            <img
+              src={targetInfo.image}
+              alt="Carte mystère Lorcadle"
+              draggable={false}
+              style={{
+                filter: `blur(${blurPx}px)`,
+                transform: blurPx > 0 ? 'scale(1.08)' : 'scale(1)',
+              }}
+              className="w-full h-full object-cover transition-all duration-700 pointer-events-none"
+            />
+          </div>
+          <p className="text-xs font-bold text-amber-600 dark:text-amber-400">
+            {t.blurMode.hintLevel(guesses.length)}
+          </p>
+          <p className="text-xs text-zinc-500 dark:text-zinc-400 text-center">
+            {t.blurMode.instruction}
+          </p>
         </div>
-        <p className="text-xs font-bold text-amber-600 dark:text-amber-400">
-          {t.blurMode.hintLevel(guesses.length)}
-        </p>
-        <p className="text-xs text-zinc-500 dark:text-zinc-400 text-center">
-          {t.blurMode.instruction}
-        </p>
-      </div>
+      )}
 
       {/* Previous attempts list */}
       {guesses.length > 0 && (

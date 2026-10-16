@@ -15,11 +15,18 @@ function statusEmoji(status: MatchStatus, direction?: 'higher' | 'lower'): strin
   return '🟥';
 }
 
+const MODE_ORDER: { mode: GameMode; href: string }[] = [
+  { mode: 'card', href: '/' },
+  { mode: 'character', href: '/character' },
+  { mode: 'blur', href: '/blur' },
+];
+
 interface VictoryModalProps {
   mode: GameMode;
   dateKey: string;
   target: CanonicalCard;
   guesses: CanonicalCard[];
+  completedModes: Record<GameMode, boolean>;
 }
 
 export default function VictoryModal({
@@ -27,18 +34,27 @@ export default function VictoryModal({
   dateKey,
   target,
   guesses,
+  completedModes,
 }: VictoryModalProps) {
   const { locale, t } = useApp();
   const [copied, setCopied] = useState(false);
 
   const targetInfo = target.translations[locale] ?? target.translations.en;
 
-  const nextModeInfo: { href: string; label: string } | null =
-    mode === 'card'
-      ? { href: '/character', label: t.modes.character.title }
-      : mode === 'character'
-        ? { href: '/blur', label: t.modes.blur.title }
-        : null;
+  // Find the next uncompleted mode in cycle order starting after current mode
+  const currentIndex = MODE_ORDER.findIndex((m) => m.mode === mode);
+  let nextModeInfo: { href: string; label: string } | null = null;
+
+  for (let offset = 1; offset < MODE_ORDER.length; offset++) {
+    const candidate = MODE_ORDER[(currentIndex + offset) % MODE_ORDER.length];
+    if (!completedModes[candidate.mode]) {
+      nextModeInfo = {
+        href: candidate.href,
+        label: t.modes[candidate.mode].title,
+      };
+      break;
+    }
+  }
 
   const handleShare = async () => {
     const modeTitle = t.modes[mode].title;

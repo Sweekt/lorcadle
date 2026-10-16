@@ -104,6 +104,7 @@ export default function DailyGameView({ mode }: DailyGameViewProps) {
             dateKey={dateKey}
             target={targetCard}
             guesses={guesses}
+            completedModes={completedModes}
           />
         )}
 
